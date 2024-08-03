@@ -1,11 +1,12 @@
 .container-presentation-h1 {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .presentation-h1 {
   width: 200px;
   text-align: center;
+  color: #353333;
 }
-
-.
