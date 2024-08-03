@@ -2,8 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f7f7f7;
-  padding: 70px 0 0;
+  padding: 70px 0 70px;
 }
 
 .container-presentation-h1 {
@@ -11,24 +10,26 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 200px;
   text-align: center;
+  gap: 3px;
 }
 
 .presentation {
   display: flex;
   justify-content: center;
-  width: 100%;
 }
 
 .presentation-h1 {
-  width: 200px;
   text-align: center;
   color: black;
 }
 
+.presentation-p {
+  color: #00a29a;
+}
+
 .container-presentation-img {
-  padding: 50px;
+  padding: 50px 0;
   display: flex;
   justify-content: center;
 }

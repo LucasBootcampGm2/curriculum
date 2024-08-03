@@ -28,13 +28,21 @@
 
 .container-skills {
   display: flex;
-  gap: 10px;
+  gap: 65px;
   color: black;
   background-color: white;
   padding: 20px;
   border-radius: 0 0 10px 10px;
 }
 
+.my-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
 .my-skills-spans {
   display: flex;
+  gap: 15px;
+  align-items: center;
 }
