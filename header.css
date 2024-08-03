@@ -1,18 +1,14 @@
 .header {
-  padding: 25px 15px;
   position: fixed;
+  width: 100%;
 }
 
 .navbar {
   display: flex;
-  position: fixed;
-  right: 25px;
-  left: 25px;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
-  background-color: #353333;
-  border-radius: 30px;
+  padding: 15px 20px;
+  background-color: #00a29a;
   color: white;
   box-shadow: 0 0 3px 0 black;
 }
@@ -22,14 +18,4 @@
   margin: 0;
   display: flex;
   gap: 20px;
-}
-
-.presentation {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-.presentation-img {
-  width: 100%;
 }

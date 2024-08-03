@@ -1,12 +1,38 @@
+.section-presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f7f7f7;
+  padding: 70px 0 0;
+}
+
 .container-presentation-h1 {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  width: 200px;
+  text-align: center;
+}
+
+.presentation {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .presentation-h1 {
   width: 200px;
   text-align: center;
-  color: #353333;
+  color: black;
+}
+
+.container-presentation-img {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+.presentation-img {
+  width: 50%;
+  border-radius: 100%;
 }
