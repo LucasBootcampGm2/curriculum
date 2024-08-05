@@ -1,10 +1,10 @@
 .section-skills {
   background-color: #15181d;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-gap: 50px;
-  place-items: center;
   padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }
 
 .cards {
@@ -18,8 +18,7 @@
   box-shadow: 0 0 10px 0 black;
 }
 
-
-.container-skills-h2 {
+.container-cards-h2 {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -49,13 +48,29 @@
   align-items: center;
 }
 
-.education {
-
+.container-record {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: black;
+  background-color: white;
+  padding: 20px;
+  border-radius: 0 0 10px 10px;
 }
+
+.my-record {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.my-record-h3 { 
+  color: #00a29a;
+}
+
 
 @media (min-width: 768px) {
   .section-skills {
-    grid-template-columns: repeat(2, 1fr);  
   }
   
   .cards {
@@ -80,7 +95,8 @@
 
 @media (min-width: 1024px) {
   .section-skills {
-    padding: 50px 15%;
+    flex-direction: row;
+    justify-content: center;
   }
   
   .cards {
@@ -105,7 +121,6 @@
 
 @media (min-width: 1440px) {
   .section-skills {
-    grid-template-columns: repeat(3, 1fr); 
     
   }
   

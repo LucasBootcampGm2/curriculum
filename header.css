@@ -11,7 +11,7 @@
   background-color: #00a29a;
   color: white;
   box-shadow: 0 0 3px 0 black;
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .container-navbar-icons {
@@ -22,8 +22,16 @@
 }
 
 @media (min-width: 768px) {
+  .navbar {
+    font-size: 18px;
+  }
 }
+
 @media (min-width: 1024px) {
+  .navbar {
+    font-size: 22px;
+  }
 }
+
 @media (min-width: 1440px) {
 }
