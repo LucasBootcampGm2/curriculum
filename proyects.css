@@ -1,13 +1,23 @@
 .section-proyects {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    max-width: 325px;
-    margin: auto;
-    padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 325px;
+  margin: auto;
+  padding: 30px;
 }
 
 .proyects-p {
   color: #00a29a;
+}
+
+.proyects-img {
+  width: 315px;
+}
+
+.container-proyects-card {
+  margin: 20px 0;
+  box-shadow: 0 0 4px 0 black;
+  border-radius: 10px 10px 0 0;
 }
