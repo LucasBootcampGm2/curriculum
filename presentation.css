@@ -2,7 +2,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 70px 0 70px;
+  gap: 30px;
+  padding: 70px 0 0;
+  background-image: url(images/background_image.jpg);
 }
 
 .container-presentation-h1 {
@@ -21,7 +23,7 @@
 
 .presentation-h1 {
   text-align: center;
-  color: black;
+  color: white;
 }
 
 .presentation-p {
@@ -29,11 +31,25 @@
 }
 
 .container-presentation-img {
-  padding: 50px 0;
+  padding: 50px 0 0;
   display: flex;
   justify-content: center;
 }
 .presentation-img {
   width: 50%;
   border-radius: 100%;
+}
+
+.container-about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  color: white;
+  background-color: #ffffff29;
+  gap: 20px;
+}
+
+.about-me-h2 {
+  color: #00a29a;
 }
