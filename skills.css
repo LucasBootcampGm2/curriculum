@@ -69,6 +69,9 @@
   color: #00a29a;
 }
 
+.my-record-p {
+  font-size: 15px;
+}
 
 @media (min-width: 768px) {
   .section-skills {
