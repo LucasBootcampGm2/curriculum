@@ -3,9 +3,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  max-width: 325px;
-  margin: auto;
-  padding: 30px;
+  background-image: url(images/background_image.jpg);
 }
 
 .container-proyects {
@@ -18,7 +16,8 @@
 .proyects-card {
   box-shadow: 0 0 10px 0 gray;
   border-radius: 10px;
-}
+  max-width: 315px;
+  background-color: white;}
 
 .proyects-p {
   font-size: 12px;
