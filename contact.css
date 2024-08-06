@@ -1,11 +1,11 @@
 footer {
-    background-color: #fff;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 30px;
-    gap: 15px;
-    color: #00a29a;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  gap: 15px;
+  color: #00a29a;
+  background-image: url(images/background_image.jpg);
 }
 
 .footer-text {
