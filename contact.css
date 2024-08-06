@@ -1,11 +1,11 @@
 footer {
-  background-color: #00a29a;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 30px;
-  gap: 15px;
-  color: white;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    gap: 15px;
+    color: #00a29a;
 }
 
 .footer-text {
@@ -28,15 +28,17 @@ footer {
 }
 
 .input-text {
-  border-radius: 5px;
-  border: none;
-  background-color: #ffffff9e;
-  padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #ffffff9e;
+    padding: 5px 10px;
+    border: 1px solid #00a29a;
 }
 
 .form-input-btn {
-  width: 40%;
-  background-color: white;
-  border: none;
-  border-radius: 5px;
+    width: 50%;
+    background-color: #00a29a;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 5px;
 }
