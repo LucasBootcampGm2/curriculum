@@ -1,5 +1,6 @@
 .section-presentation {
-  background-image: url(images/background_image.jpg);
+  background-image: url(images/back.jpeg);
+  background-size: cover;
 }
 
 .container-presentation {
@@ -8,6 +9,7 @@
   align-items: center;
   padding: 70px 0;
   gap: 20px;
+  background-color: #00000036;
 }
 
 .container-presentation-h1 {
@@ -31,7 +33,6 @@
 
 .presentation-p {
   color: #0bfff3;
-  box-shadow: 0 0 25px 5px black;
 }
 
 .container-presentation-img {
@@ -51,7 +52,7 @@
   align-items: center;
   padding: 30px;
   color: white;
-  background-color: #ffffff29;
+  background-color: #00000082;
   gap: 20px;
 }
 
