@@ -1,10 +1,13 @@
 .section-presentation {
+  background-image: url(images/background_image.jpg);
+}
+
+.container-presentation {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
-  padding: 70px 0 0;
-  background-image: url(images/background_image.jpg);
+  padding: 70px 0;
+  gap: 20px;
 }
 
 .container-presentation-h1 {
@@ -13,7 +16,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 3px;
+  gap: 10px;
 }
 
 .presentation {
@@ -27,17 +30,19 @@
 }
 
 .presentation-p {
-  color: #00a29a;
+  color: #0bfff3;
+  box-shadow: 0 0 25px 5px black;
 }
 
 .container-presentation-img {
   padding: 50px 0 0;
   display: flex;
   justify-content: center;
+  width: 50%;
 }
 .presentation-img {
-  width: 50%;
   border-radius: 100%;
+  max-width: 220px;
 }
 
 .container-about-me {
@@ -52,4 +57,13 @@
 
 .about-me-h2 {
   color: #00a29a;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+  .container-presentation {
+    flex-direction: row;
+  }
 }
